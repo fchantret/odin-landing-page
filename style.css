@@ -107,3 +107,33 @@ ul {
     font-size: 24px;
     font-style: normal;
 }
+
+.call-to-action {
+    background-color: #3882F6;
+    width: 1024px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    color: #E5E7EB;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+
+.call-to-action h2 {
+    color: #F9FAF8;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.call-to-action p {
+    margin-top: 0;
+}
+
+.call-to-action button {
+    border: solid #F9FAF8 2px;
+    color: #F9FAF8;
+}
