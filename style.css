@@ -17,6 +17,13 @@ h1 {
     margin-bottom: -16px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -58,4 +65,28 @@ ul {
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
+}
+
+.info-img {
+    width: 168px;
+    height: 168px;
+    border: solid #3882F6 4px;
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    padding-left: 209px;
+    padding-right: 209px;
+    gap: 48px;
+}
+
+.information p {
+    width: 168px;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+    margin-top: 10px;
 }
