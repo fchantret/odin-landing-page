@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+.main-container {
+    max-width: 1440px;
+    margin: auto;
+}
+
 header, footer {
     background-color: #1F2937;
     font-size: 18px;
