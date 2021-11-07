@@ -3,10 +3,19 @@ body {
     margin: 0;
 }
 
-header {
+header, footer {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header {
     padding: 8px 209px 133px 209px;
 }
 
@@ -112,10 +121,9 @@ ul {
     background-color: #3882F6;
     width: 1024px;
     height: 150px;
-    margin: auto;
+    margin: 100px auto;
     border-radius: 10px;
     color: #E5E7EB;
-    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
